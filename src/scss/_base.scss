@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+html {
+    scroll-behavior: smooth;
+    font-size: 10px;
+    overflow-x: hidden;
+}
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex {
+    display: flex;
+}
+.flex-center {
+    display: flex;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  .flex-around {
+    display: flex;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: space-around;
+  }
+  
+  .flex-between {
+    display: flex;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: space-between;
+  }
+  
+  .flex-end {
+    display: flex;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+  
+  .flex-start {
+    display: flex;
+    align-items: flex-start;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  
+  .flex-end-no {
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+  
+  .flex-start-no {
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .fl-wrap {
+    flex-wrap: wrap;
+  }
+  .fl-column {
+    flex-direction: column;
+  }
+  .alg-center {
+    align-items: center;
+  }
+  .alg-start {
+    align-items: flex-start;
+  }
+  .jst-btw {
+    justify-content: space-between;
+  }
+  .jst-center {
+    justify-content: center;
+  }
+  .jst-rnd {
+    justify-content: space-around;
+  }
+  
+  .jst-end {
+    justify-content: flex-end;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  a {
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .text-up {
+    text-transform: uppercase;
+  }
+  .text-right {
+    text-align: right;
+  }
+  .text-capp {
+    text-transform: capitalize;
+  }
+  
+  span {
+    display: inline-block;
+  }
+  
+  :focus {
+    outline: none;
+  }
+  .col-8 {
+    width: 100%;
+  }
+  
+  .col-7 {
+    width: 87.5%;
+  }
+  
+  .col-6 {
+    width: 75%;
+  }
+  
+  .col-5 {
+    width: 62.5;
+  }
+  
+  .col-4 {
+    width: 50%;
+  }
+  
+  .col-3 {
+    width: 37.5%;
+  }
+  
+  .col-2 {
+    width: 25%;
+  }
+  
+  .col-1 {
+    width: 12.5%;
+  }
